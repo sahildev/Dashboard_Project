@@ -1,0 +1,303 @@
+"2017-07-06 18:33:29 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 15224 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-06 18:33:29 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-06 18:33:29 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-06 18:33:29 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cbb87f3: startup date [Thu Jul 06 18:33:29 IST 2017]; root of context hierarchy
+""2017-07-06 18:33:31 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-07-06 18:33:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-06 18:33:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-06 18:33:31 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-06 18:33:31 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2044 ms
+""2017-07-06 18:33:32 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-06 18:33:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-06 18:33:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-07-06 18:33:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-07-06 18:33:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-07-06 18:33:32 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cbb87f3: startup date [Thu Jul 06 18:33:29 IST 2017]; root of context hierarchy
+""2017-07-06 18:33:32 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-06 18:33:32 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-06 18:33:32 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-06 18:33:32 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-07-06 18:33:32 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-07-06 18:33:32 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-07-06 18:33:32 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+""2017-07-06 18:33:33 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-06 18:33:33 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-07-06 18:33:33 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 3.568 seconds (JVM running for 3.999)
+""2017-07-06 18:34:04 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-06 18:34:04 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-06 18:34:04 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+""2017-07-06 18:35:02 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 14616 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-06 18:35:02 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-06 18:35:02 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-06 18:35:02 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cbb87f3: startup date [Thu Jul 06 18:35:02 IST 2017]; root of context hierarchy
+""2017-07-06 18:35:04 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-07-06 18:35:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-06 18:35:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-06 18:35:04 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-06 18:35:04 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1911 ms
+""2017-07-06 18:35:05 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-06 18:35:05 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-06 18:35:05 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-07-06 18:35:05 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-07-06 18:35:05 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-07-06 18:35:05 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1cbb87f3: startup date [Thu Jul 06 18:35:02 IST 2017]; root of context hierarchy
+""2017-07-06 18:35:05 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-06 18:35:05 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-06 18:35:05 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-06 18:35:05 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-07-06 18:35:05 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-07-06 18:35:05 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-07-06 18:35:05 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+""2017-07-06 18:35:05 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-06 18:35:05 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-07-06 18:35:05 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 3.389 seconds (JVM running for 3.851)
+""2017-07-06 18:35:12 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-06 18:35:12 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-06 18:35:12 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+""2017-07-06 18:41:41 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 8044 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-06 18:41:41 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-06 18:41:41 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-06 18:41:41 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:41:41 IST 2017]; root of context hierarchy
+""2017-07-06 18:41:42 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-07-06 18:41:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-06 18:41:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-06 18:41:42 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-06 18:41:42 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1388 ms
+""2017-07-06 18:41:43 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-06 18:41:43 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-06 18:41:43 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-06 18:41:43 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-06 18:41:43 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-06 18:41:43 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:41:41 IST 2017]; root of context hierarchy
+""2017-07-06 18:41:43 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-06 18:41:43 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-07-06 18:41:43 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.388 seconds (JVM running for 3.104)
+""2017-07-06 18:41:54 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-06 18:41:54 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-06 18:41:54 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+""2017-07-06 18:41:54 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/WEB-INF/index.html] in DispatcherServlet with name 'dispatcherServlet'
+""2017-07-06 18:41:57 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/WEB-INF/index.html] in DispatcherServlet with name 'dispatcherServlet'
+""2017-07-06 18:43:22 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-07-06 18:43:22 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:41:41 IST 2017]; root of context hierarchy
+""2017-07-06 18:43:22 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-07-06 18:43:27 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 13672 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-06 18:43:27 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-06 18:43:27 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-06 18:43:27 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:43:27 IST 2017]; root of context hierarchy
+""2017-07-06 18:43:28 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-07-06 18:43:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-06 18:43:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-06 18:43:29 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-06 18:43:29 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1314 ms
+""2017-07-06 18:43:29 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-06 18:43:29 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-06 18:43:29 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-06 18:43:29 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-06 18:43:29 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-06 18:43:29 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:43:27 IST 2017]; root of context hierarchy
+""2017-07-06 18:43:29 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-06 18:43:29 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-07-06 18:43:29 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.363 seconds (JVM running for 3.063)
+""2017-07-06 18:43:32 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-06 18:43:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-06 18:43:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+""2017-07-06 18:43:32 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/index.html] in DispatcherServlet with name 'dispatcherServlet'
+""2017-07-06 18:43:35 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/index.html] in DispatcherServlet with name 'dispatcherServlet'
+""2017-07-06 18:44:15 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-07-06 18:44:15 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:43:27 IST 2017]; root of context hierarchy
+""2017-07-06 18:44:15 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-07-06 18:44:21 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 7228 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-06 18:44:21 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-06 18:44:21 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-06 18:44:21 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:44:21 IST 2017]; root of context hierarchy
+""2017-07-06 18:44:22 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-07-06 18:44:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-06 18:44:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-06 18:44:23 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-06 18:44:23 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1246 ms
+""2017-07-06 18:44:23 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-06 18:44:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-06 18:44:23 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-06 18:44:23 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-06 18:44:23 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-06 18:44:23 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+""2017-07-06 18:44:23 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:44:21 IST 2017]; root of context hierarchy
+""2017-07-06 18:44:23 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-06 18:44:23 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-07-06 18:44:23 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.227 seconds (JVM running for 2.936)
+""2017-07-06 18:44:34 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-06 18:44:34 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-06 18:44:34 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+""2017-07-06 18:44:49 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-07-06 18:44:49 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:44:21 IST 2017]; root of context hierarchy
+""2017-07-06 18:44:49 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-07-06 18:44:54 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 10372 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-06 18:44:54 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-06 18:44:54 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-06 18:44:54 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:44:54 IST 2017]; root of context hierarchy
+""2017-07-06 18:44:55 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-07-06 18:44:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-06 18:44:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-06 18:44:55 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-06 18:44:55 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1276 ms
+""2017-07-06 18:44:55 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-06 18:44:55 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-06 18:44:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-06 18:44:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-06 18:44:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-06 18:44:56 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+""2017-07-06 18:44:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:44:54 IST 2017]; root of context hierarchy
+""2017-07-06 18:44:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-06 18:44:56 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-07-06 18:44:56 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.218 seconds (JVM running for 2.875)
+""2017-07-06 18:45:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-06 18:45:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-06 18:45:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+""2017-07-06 18:49:54 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-07-06 18:49:54 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 18:44:54 IST 2017]; root of context hierarchy
+""2017-07-06 18:49:54 [RMI TCP Connection(2)-10.207.185.39] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-07-06 19:05:07 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 2056 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-06 19:05:07 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-06 19:05:07 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-06 19:05:07 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 19:05:07 IST 2017]; root of context hierarchy
+""2017-07-06 19:05:08 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-07-06 19:05:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-06 19:05:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-06 19:05:08 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-06 19:05:08 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1193 ms
+""2017-07-06 19:05:09 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-06 19:05:09 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-06 19:05:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-06 19:05:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-06 19:05:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-06 19:05:09 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+""2017-07-06 19:05:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Thu Jul 06 19:05:07 IST 2017]; root of context hierarchy
+""2017-07-06 19:05:09 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-06 19:05:09 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-07-06 19:05:09 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.155 seconds (JVM running for 2.874)
+""2017-07-06 19:05:35 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-06 19:05:35 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-06 19:05:35 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+""2017-07-07 10:09:58 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 8904 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-07 10:09:58 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-07 10:09:58 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-07 10:09:58 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 10:09:58 IST 2017]; root of context hierarchy
+""2017-07-07 10:09:59 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-07-07 10:09:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-07 10:09:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-07 10:10:00 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-07 10:10:00 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1415 ms
+""2017-07-07 10:10:00 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-07 10:10:00 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-07 10:10:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-07 10:10:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-07 10:10:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-07 10:10:00 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+""2017-07-07 10:10:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 10:09:58 IST 2017]; root of context hierarchy
+""2017-07-07 10:10:00 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-07 10:10:00 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-07-07 10:10:00 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.466 seconds (JVM running for 3.168)
+""2017-07-07 10:10:03 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-07 10:10:03 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-07 10:10:03 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+""2017-07-07 10:27:58 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-07-07 10:27:58 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 10:09:58 IST 2017]; root of context hierarchy
+""2017-07-07 10:27:58 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-07-07 10:28:14 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 10816 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-07 10:28:14 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-07 10:28:14 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-07 10:28:14 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 10:28:14 IST 2017]; root of context hierarchy
+""2017-07-07 10:28:15 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2017-07-07 10:28:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-07 10:28:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-07 10:28:15 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-07 10:28:15 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1447 ms
+""2017-07-07 10:28:15 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-07 10:28:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-07 10:28:15 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-07 10:28:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-07 10:28:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-07 10:28:16 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+""2017-07-07 10:28:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 10:28:14 IST 2017]; root of context hierarchy
+""2017-07-07 10:28:16 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-07 10:28:16 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2017-07-07 10:28:16 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.831 seconds (JVM running for 3.61)
+""2017-07-07 10:28:23 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-07 10:28:23 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-07 10:28:23 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+""2017-07-07 10:41:05 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-07-07 10:41:05 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 10:28:14 IST 2017]; root of context hierarchy
+""2017-07-07 10:41:05 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-07-07 10:41:14 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 14872 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-07 10:41:14 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-07 10:41:14 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-07 10:41:14 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 10:41:14 IST 2017]; root of context hierarchy
+""2017-07-07 10:41:15 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+""2017-07-07 10:41:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-07 10:41:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-07 10:41:16 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-07 10:41:16 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1301 ms
+""2017-07-07 10:41:16 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-07 10:41:16 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-07 10:41:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-07 10:41:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-07 10:41:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-07 10:41:16 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+""2017-07-07 10:41:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 10:41:14 IST 2017]; root of context hierarchy
+""2017-07-07 10:41:16 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-07 10:41:16 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+""2017-07-07 10:41:16 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.382 seconds (JVM running for 3.132)
+""2017-07-07 10:41:25 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-07 10:41:25 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-07 10:41:25 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+""2017-07-07 17:45:37 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-07-07 17:45:37 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 10:41:14 IST 2017]; root of context hierarchy
+""2017-07-07 17:45:37 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-07-07 17:45:58 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 12340 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-07 17:45:58 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-07 17:45:58 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-07 17:45:58 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 17:45:58 IST 2017]; root of context hierarchy
+""2017-07-07 17:45:59 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+""2017-07-07 17:45:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-07 17:45:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-07 17:45:59 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-07 17:45:59 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1223 ms
+""2017-07-07 17:45:59 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-07 17:45:59 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-07 17:46:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-07 17:46:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-07 17:46:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-07 17:46:00 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+""2017-07-07 17:46:00 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 17:45:58 IST 2017]; root of context hierarchy
+""2017-07-07 17:46:00 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-07 17:46:00 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+""2017-07-07 17:46:00 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.36 seconds (JVM running for 3.088)
+""2017-07-07 17:46:27 [http-nio-8081-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-07 17:46:27 [http-nio-8081-exec-4] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-07 17:46:27 [http-nio-8081-exec-4] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+""2017-07-07 18:32:37 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-07-07 18:32:37 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 17:45:58 IST 2017]; root of context hierarchy
+""2017-07-07 18:32:37 [RMI TCP Connection(2)-10.207.185.10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-07-07 18:33:06 [main] INFO  com.dashboard.DashboardApplication - Starting DashboardApplication on DLUSCHO2075154 with PID 4248 (started by scho20 in D:\workspaces\workspace 4.0\dashboard)
+""2017-07-07 18:33:06 [main] DEBUG com.dashboard.DashboardApplication - Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+""2017-07-07 18:33:06 [main] INFO  com.dashboard.DashboardApplication - No active profile set, falling back to default profiles: default
+""2017-07-07 18:33:06 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 18:33:06 IST 2017]; root of context hierarchy
+""2017-07-07 18:33:07 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+""2017-07-07 18:33:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-07-07 18:33:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-07-07 18:33:07 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-07-07 18:33:07 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1355 ms
+""2017-07-07 18:33:07 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-07-07 18:33:07 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-07-07 18:33:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto private java.lang.String com.dashboard.controller.HomeController.home()
+""2017-07-07 18:33:08 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-07-07 18:33:08 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-07-07 18:33:08 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler]
+""2017-07-07 18:33:08 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6156496: startup date [Fri Jul 07 18:33:06 IST 2017]; root of context hierarchy
+""2017-07-07 18:33:08 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-07-07 18:33:08 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+""2017-07-07 18:33:08 [main] INFO  com.dashboard.DashboardApplication - Started DashboardApplication in 2.331 seconds (JVM running for 3.065)
+""2017-07-07 18:33:12 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-07-07 18:33:12 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-07-07 18:33:12 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+"
