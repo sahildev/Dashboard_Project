@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('myApp', [ 'ngMaterial', 'ngRoute' ]);
+var app = angular.module('myApp', [ 'myApp.services', 'ngMaterial', 'ngRoute' ]);
 
 app.config(function($routeProvider) {
 
@@ -27,7 +27,7 @@ app.config(function($routeProvider) {
 	})
 	
 	.when('/addProject', {
-		templateUrl : 'AddProject.html',
+		templateUrl : '/dashboard/resources/html/AddProject.html',
 		controller : 'ProjectController'
 	})
 
